@@ -1,13 +1,13 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 function App() {
  
   return (
     <>
-      <div>
-        <h1>Paleta de colores
-          
-        </h1>
-      </div>
+      <Container> <h1>Alta de Peliculas
+        </h1></Container>
+       
+      
     </>
   )
 }

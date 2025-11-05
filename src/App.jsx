@@ -4,8 +4,8 @@ function App() {
  
   return (
     <>
-      <Container> <h1>Alta de Peliculas
-        </h1></Container>
+      <Container className='my-5'> 
+        <h1 className='text-center'>Alta de Peliculas</h1></Container>
        
       
     </>

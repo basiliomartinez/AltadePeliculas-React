@@ -1,9 +1,11 @@
-import{Row, Col} from"react-bootstrap"
+import{Row} from"react-bootstrap"
+import CardPelicula from "./CardPelicula";
+
 const GrillaPeliculas = () => {
     return (
-              <Row xs={1} md={4} lg={6} className="mt-4">
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
+              <Row xs={1} md={2} lg={4} className="mt-4 gap-3">
+       <CardPelicula></CardPelicula>
+    
       </Row>
     );
 };

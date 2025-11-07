@@ -1,4 +1,6 @@
 import { Form, Button } from "react-bootstrap";
+import GrillaPeliculas from "./GrillaPeliculas";
+
 const FormularioPelicula = () => {
     return (
         <section>
@@ -32,6 +34,7 @@ const FormularioPelicula = () => {
       Enviar
       </Button>
     </Form>
+<GrillaPeliculas></GrillaPeliculas>
         </section>
     );
 };

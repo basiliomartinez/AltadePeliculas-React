@@ -1,16 +1,16 @@
 import { Card, Col } from "react-bootstrap";
 
-const CardPelicula = () => {
+const CardPelicula = ({pelicula}) => {
     return (
         <Col>
          <Card >
       <Card.Body>
-        <Card.Title>El conjuro 4</Card.Title>
+        <Card.Title>{pelicula.nombrePelicula}</Card.Title>
         <Card.Text>
-     A principios de los años 70, Ed y Lorrain Warren, reputados investigadores de fenómenos paranormales, se enfrentan a una entidad demoníaca al intentar ayudar a una familia que está siendo aterrorizada por una presencia oscura en su aislada granja.
+  {pelicula.descripcion}
         </Card.Text>
         <Card.Text>
-            Categoria: Terror
+        {pelicula.categoria}
         </Card.Text>
       </Card.Body>
     </Card>
